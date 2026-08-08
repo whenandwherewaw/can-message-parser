@@ -1,0 +1,21 @@
+# 打包产物(exe 体积大, 建议通过 GitHub Releases 分发, 不入库)
+*.exe
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 抓包数据与解析结果(测试数据不入库)
+*.csv
+*.xlsx
+*.xls
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
